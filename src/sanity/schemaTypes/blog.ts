@@ -1,0 +1,33 @@
+export const Blogs ={
+    name:"blogs",
+    type:"document",
+    title:"Blogs",
+    fields:[ 
+        {
+            name:"blog_image",
+            title:"Blog_Image",
+            type:"image"
+        },
+        {
+            name:"author_name",
+            title:"Author_name",
+            type:"string" 
+        },
+        {
+            name:"heading",
+            title:"Heading",
+            type:"string"
+        },
+        {
+            name:"description",
+            title:"Description",
+            type:"text"
+        },
+        {
+            name:"read_more",
+            title:"Read_More",
+            type:"string"
+        }
+   
+    ]
+}
