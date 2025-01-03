@@ -32,6 +32,7 @@ console.log(data);
             <h2>{data.heading}</h2>
             <p className='w-64'>{data.description}</p>
           <Link href={`/blogs_data/${data._id}`} ><button>{data.read_more}</button></Link> 
+          hello
         </div>
      
         )
