@@ -4,13 +4,13 @@ import Image_1 from "../../public/images/blog_img_1.svg";
 import Container_img2 from "../../public/images/imag2.svg";
 export default function Hero() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="lg:flex lg:flex-row md:flex  md:flex-row lg:justify-around md:justify-around flex flex-col justify-center items-center bg-[#7C4EE4] text-white lg:h-[600px] md:h-[600px] h-[900px] lg:mt-5 md:mt-5 mt-3">
-        <div className="space-y-4 ml-3">
+        <div className="space-y-4  ml-3 ">
           <span className="text-sm font-semibold">Featured Post</span>
           <h2 className="text-6xl font-semibold ">How AI will </h2>
           <h2 className="text-6xl font-semibold ">Change the Future</h2>
-          <p className="text-lg font-extralight w-96">
+          <p className="text-lg font-extralight sm:w-96 w-76]">
             The future of AI will see home robots having enhanced intelligence,
             increased capabilities, and becoming more personal and possibly
             cute. For example, home robots will overcome navigation, direction

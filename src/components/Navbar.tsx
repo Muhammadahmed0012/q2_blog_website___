@@ -2,8 +2,8 @@ import { Search } from "lucide-react";
 import HamburgerMenu from "./Hamburger";
 export default function Navbar() {
   return (
-          <div className="flex justify-between items-center" >
-            <div className="ml-5 font-light text-3xl flex items-center">
+          <div className="flex justify-between items-center">
+            <div className="ml-5 font-light text-3xl flex items-center mt-2">
               <h1>Ahmed</h1>
               <h1 className="text-[#7c4ee4]">Blog</h1>
             </div>

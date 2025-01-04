@@ -12,7 +12,7 @@ const HamburgerMenu = () => {
   return (
     <div>
       {/* Hamburger Icon */}
-      <div className="fixed top-2 right-4 z-50">
+      <div className="relative top-2 right-4 z-50">
         <button onClick={toggleMenu} aria-label="Toggle Menu">
           {isOpen ? (
             <AiOutlineClose className="text-[#7c4ee4] text-3xl" />
