@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
     </div>
     <div className='flex flex-col items-center space-y-7 mt-12'>
-      <h2 className='text-3xl font-semibold'>Ahmed Blog's </h2>
+      <h2 className='text-3xl font-semibold'>Ahmed Blogs </h2>
      
         <ul className='flex space-x-9 text-black font-extralight opacity-70'>
           <li>Home</li>
