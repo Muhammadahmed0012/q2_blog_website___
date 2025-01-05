@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiMenu } from "react-icons/fi"; // Stylish hamburger icon
 import { AiOutlineClose } from "react-icons/ai";
+import Link from "next/link"; // Import Link from next/link
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,21 +31,28 @@ const HamburgerMenu = () => {
         transition={{ duration: 0.4 }}
       >
         <div className="flex flex-col items-center justify-center h-full gap-6 text-center">
-          <a
+          <Link href="/" className="text-lg font-semibold text-gray-800 hover:text-[#7c4ee4]">
+            Home
+          </Link>
+          <Link
             href="/blog_page"
             className="text-lg font-semibold text-gray-800 hover:text-[#7c4ee4]"
           >
             Blog
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
             className="text-lg font-semibold text-gray-800 hover:text-[#7c4ee4]"
           >
             About
-          </a>
+          </Link>
+
+          <Link
+            href="/contact">
           <button className="px-4 py-2 bg-[#7c4ee4] text-white rounded-md hover:bg-purple-700">
             Contact Us
           </button>
+          </Link>
         </div>
       </motion.div>
     </div>

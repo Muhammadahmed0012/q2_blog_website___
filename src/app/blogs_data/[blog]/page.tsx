@@ -22,16 +22,21 @@ export default async function Blog({params}: {params: Promise<{blog : string }>}
   
 
   return (
-    <div>
+    <div className="">
+     <div className="flex flex-col items-center space-y-5  ">
       <Image
         src={urlFor(query.blog_image).url()}
         alt="img"
         height={100}
         width={100}
+       className="w-[60rem] h-[500px]"
       />
-       {query.author_name}
-       {query.heading}
-       {query.description}
+      
+
+      <span>{query.author_name}</span> 
+       <h2>{query.heading}</h2>
+       <p>{query.description2}</p>
+       </div>
     </div>
   );
 }

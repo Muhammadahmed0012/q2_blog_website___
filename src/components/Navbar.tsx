@@ -26,9 +26,10 @@ export default function Navbar() {
         </a>
 
         <Search />
-        <button className="bg-[#7c4ee4] text-white rounded-lg h-11 w-32 transition-all duration-300 ease-in-out hover:bg-[#5c2fbf] hover:shadow-lg hover:scale-105">
+        <a href="/contact"><button className="bg-[#7c4ee4] text-white rounded-lg h-11 w-32 transition-all duration-300 ease-in-out hover:bg-[#5c2fbf] hover:shadow-lg hover:scale-105">
           Contact Us
         </button>
+        </a>
       </div>
       <div className="lg:hidden md:hidden sm:hidden flex items-center">
         <HamburgerMenu />

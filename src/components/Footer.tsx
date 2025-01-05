@@ -1,5 +1,6 @@
 import React from "react";
 import ConatctForm from "./Email";
+import Link from "next/link";
 export default function Footer() {
   return (
     <div className="overflow-hidden">
@@ -22,20 +23,26 @@ export default function Footer() {
           Ahmed<span className="text-black"> Blogs</span>
         </h2>
 
-        <ul className="flex space-x-9 text-black font-extralight opacity-70">
-          <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
-            Home
-          </li>
-          <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
-            About
-          </li>
-          <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
-            Blog
-          </li>
-          <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
-            Contact Us
-          </li>
-        </ul>
+        
+
+<ul className="flex space-x-9 text-black font-extralight opacity-70">
+  <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
+    <Link href="/">Home</Link>
+  </li>
+
+  <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
+    <Link href="/about">About</Link>
+  </li>
+
+  <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
+    <Link href="/blog_page">Blog</Link>
+  </li>
+
+  <li className="transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
+    <Link href="/contact">Contact Us</Link>
+  </li>
+</ul>
+
 
         <div>
           <div className="flex space-x-4 ">

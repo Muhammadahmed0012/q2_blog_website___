@@ -29,6 +29,11 @@ export const Blogs ={
             type:"text"
         },
         {
+            name:"description2",
+            title:"Description_2",
+            type:"text"
+        },
+        {
             name:"read_more",
             title:"Read_More",
             type:"string"
