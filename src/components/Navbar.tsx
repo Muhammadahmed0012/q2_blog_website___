@@ -1,5 +1,7 @@
 import { Search } from "lucide-react";
 import HamburgerMenu from "./Hamburger";
+import  Link from "next/link";
+
 export default function Navbar() {
   return (
           <div className="flex justify-between items-center">
@@ -15,12 +17,12 @@ export default function Navbar() {
 
             </div>
             <div className="lg:flex lg:items-center lg:space-x-10 md:flex md:items-center md:space-x-10 sm:flex sm:items-center sm:space-x-8 mr-5 text-lg font-extralight hidden mt-2">
-            <h2 className="text-black text-xl font-extralight transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:scale-110 hover:underline cursor-pointer">
+           <a href="/blog_page" ><h2 className="text-black text-xl font-extralight transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:scale-110 hover:underline cursor-pointer">
   Blog
-</h2>
-<h2 className="text-black text-xl font-extralight transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:scale-110 hover:underline cursor-pointer">
+</h2></a>
+<a href="/about"><h2 className="text-black text-xl font-extralight transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:scale-110 hover:underline cursor-pointer">
   About
-</h2>
+</h2></a>
 
               <Search />
               <button  className="bg-[#7c4ee4] text-white rounded-lg h-11 w-32 transition-all duration-300 ease-in-out hover:bg-[#5c2fbf] hover:shadow-lg hover:scale-105"
