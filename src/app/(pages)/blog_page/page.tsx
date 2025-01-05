@@ -12,7 +12,7 @@ export  default function Blog_page() {
         </h2>
         <p className='text-lg font-extralight opacity-70 md:w-[49rem] sm:w-[40rem] w-[22rem] text-center'>our blogs are written from very research research and well known writers writers so that  we can provide you the best blogs and articles articles for you to read them all along</p>
     </div>
-    <div className='mt-10'>
+    <div className='mt-9'>
     <Blogs_data/>
     </div>
     </div>
