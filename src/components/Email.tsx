@@ -43,7 +43,7 @@ const ConatctForm = () => {
             <FormItem>
               <FormLabel></FormLabel>
               <FormControl>
-                <Input placeholder="Your Email" className="bg-white text-black" {...field}/>
+                <Input placeholder="Your Email" className="bg-white text-black sm:w-[220px] w-[190px]" {...field}/>
               </FormControl>
           
               <FormMessage />
