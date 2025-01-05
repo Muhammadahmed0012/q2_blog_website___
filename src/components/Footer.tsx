@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='overflow-hidden'>
     <div className='h-[25rem] w-full bg-[#7c4ee4] mt-20'>
       <div className='flex flex-col items-center h-[100%] justify-center text-white space-y-4'>
-        <h2 className='font-semibold text-3xl w-[30rem] text-center'>Get our stories delivered From us to your inbox weekly.</h2>
+        <h2 className='font-semibold text-3xl sm:w-[30rem] w-[20rem] text-center'>Get our stories delivered From us to your inbox weekly.</h2>
         <div >
         <ConatctForm/>
         </div>
