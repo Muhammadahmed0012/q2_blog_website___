@@ -31,13 +31,13 @@ const HamburgerMenu = () => {
       >
         <div className="flex flex-col items-center justify-center h-full gap-6 text-center">
           <a
-            href="#blog"
+            href="/blog_page"
             className="text-lg font-semibold text-gray-800 hover:text-[#7c4ee4]"
           >
             Blog
           </a>
           <a
-            href="#about"
+            href="/about"
             className="text-lg font-semibold text-gray-800 hover:text-[#7c4ee4]"
           >
             About
