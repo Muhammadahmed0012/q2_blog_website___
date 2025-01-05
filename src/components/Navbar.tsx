@@ -1,7 +1,5 @@
 import { Search } from "lucide-react";
 import HamburgerMenu from "./Hamburger";
-import Link from "next/link";
-
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center">
