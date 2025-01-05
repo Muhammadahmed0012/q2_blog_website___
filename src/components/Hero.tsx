@@ -15,7 +15,7 @@ export default function Hero() {
             increased capabilities, and becoming more personal and possibly
             cute. For example, home robots will overcome navigation, direction
           </p>
-          <button className="font-semibold text-sm bg-white text-black h-11 w-32 rounded-md">
+          <button className="font-semibold text-sm bg-white text-black h-11 w-32 rounded-md transition-all duration-300 ease-in-out hover:text-[#7c4ee4] hover:font-medium hover:scale-105 cursor-pointer">
             Read more
           </button>
         </div>
@@ -57,9 +57,12 @@ export default function Hero() {
               developing tools and resources that enable others, we’re committed
               to making AI accessible to everyone.
             </p>
-            <button className="sm:text-lg font-extralight h-10 w-24 border-2 border-[#7C4EE4] rounded-md text-[#7C4EE4] text-[16px]">
-              Read More
-            </button>
+            <button 
+  className="sm:text-lg font-extralight h-10 w-24 border-2 border-[#7C4EE4] rounded-md text-[#7C4EE4] text-[16px] transition-all duration-300 ease-in-out hover:bg-[#7C4EE4] hover:text-white hover:shadow-md hover:scale-105"
+>
+  Read More
+</button>
+
           </div>
         </div>
       </div>
@@ -68,9 +71,12 @@ export default function Hero() {
           <h2 className="md:text-[24px] md:font-semibold md:block hidden">
             Our Recent Post
           </h2>
-          <button className="md:text-[14px] md:font-semibold md:w-24 md:h-9 md:bg-[#7C4EE4] md:text-white md:rounded-lg">
-            View All
-          </button>
+          <button 
+  className="md:text-[14px] md:font-semibold md:w-24 md:h-9 md:bg-[#7C4EE4] md:text-white md:rounded-lg transition-all duration-300 ease-in-out hover:bg-[#5C2FBF] hover:shadow-lg hover:scale-105"
+>
+  View All
+</button>
+
         </div>
         <div className="md:flex md:justify-around md:items-center md:space-y-3 md:mt-5 hidden">
           <div>
@@ -100,9 +106,12 @@ export default function Hero() {
               developing tools and resources that enable others, we’re committed
               to making AI accessible to everyone.
             </p>
-            <button className="md:text-[16px] md:font-extralight md:h-9 md:w-[92px] border-2 border-[#7C4EE4] rounded-md text-[#7C4EE4] text-[16px]">
-              Read More
-            </button>
+            <button 
+  className="md:text-[16px] md:font-extralight md:h-9 md:w-[92px] border-2 border-[#7C4EE4] rounded-md text-[#7C4EE4] text-[16px] transition-all duration-300 ease-in-out hover:bg-[#7C4EE4] hover:text-white hover:shadow-lg hover:scale-105"
+>
+  Read More
+</button>
+
           </div>
         </div>
       </div>

@@ -14,6 +14,11 @@ export const Blogs ={
             type:"string" 
         },
         {
+            name:"depoloyed_at",
+            title:"Depoloyed_at",
+            type:"string" 
+        },
+        {
             name:"heading",
             title:"Heading",
             type:"string"
